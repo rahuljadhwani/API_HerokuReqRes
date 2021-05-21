@@ -63,12 +63,11 @@ public class GetReqResResourceSteps {
     @Then("User should get the response code as {int}")
     public void user_should_get_the_response_code_as(int statuscode) {
         response = ResourceSharer.getResponse();
-
         if(response.getStatusCode()==statuscode){
             Assert.assertTrue(true);
-            logger.info("API has sent the status code as: "+statuscode);
+            logger.info("API has responded with status code as: "+statuscode);
         } else {
-            logger.error("API has responded with status code: "+statuscode);
+            logger.error("API has responded with status code: "+response.getStatusCode());
             Assert.fail();
 
         }
