@@ -328,4 +328,90 @@
  2021-05-21 14:25:02 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
  2021-05-21 14:25:02 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
  2021-05-21 14:25:03 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 17:43:12 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 17:43:13 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 17:43:15 INFO  HerokuAuthenticationSteps:21 - User is using basic authentication to acess Heroku app.
+ 2021-05-21 17:43:15 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:15 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 17:43:17 INFO  HerokuAuthenticationSteps:18 - User is using digest authentication to acess Heroku app.
+ 2021-05-21 17:43:17 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:41 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 17:43:41 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 17:43:43 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:43 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 17:43:43 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:43 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 17:43:44 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:44 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 17:43:45 INFO  HerokuAuthenticationSteps:21 - User is using basic authentication to acess Heroku app.
+ 2021-05-21 17:43:45 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:45 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 17:43:46 INFO  HerokuAuthenticationSteps:18 - User is using digest authentication to acess Heroku app.
+ 2021-05-21 17:43:46 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 17:43:46 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 17:43:48 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 17:43:48 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 17:43:48 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 19:05:46 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:05:46 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:05:50 INFO  DefaultHttpClient:695 - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://the-internet.herokuapp.com:443: Z:\GithubProjects\HerokuReqResFileReader.txt (The system cannot find the file specified)
+ 2021-05-21 19:05:50 INFO  DefaultHttpClient:705 - Retrying request to {s}->https://the-internet.herokuapp.com:443
+ 2021-05-21 19:05:51 INFO  DefaultHttpClient:695 - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://the-internet.herokuapp.com:443: Z:\GithubProjects\HerokuReqResFileReader.txt (The system cannot find the file specified)
+ 2021-05-21 19:05:51 INFO  DefaultHttpClient:705 - Retrying request to {s}->https://the-internet.herokuapp.com:443
+ 2021-05-21 19:05:52 INFO  DefaultHttpClient:695 - I/O exception (java.io.FileNotFoundException) caught when processing request to {s}->https://the-internet.herokuapp.com:443: Z:\GithubProjects\HerokuReqResFileReader.txt (The system cannot find the file specified)
+ 2021-05-21 19:05:52 INFO  DefaultHttpClient:705 - Retrying request to {s}->https://the-internet.herokuapp.com:443
+ 2021-05-21 19:06:37 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:06:38 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:06:40 ERROR GetReqResResourceSteps:70 - API has responded with status code: 200
+ 2021-05-21 19:07:45 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:07:45 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:07:47 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:19:06 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:19:06 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:19:09 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:20:03 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:20:03 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:20:06 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:21:30 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:21:30 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:21:33 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:34:25 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:34:26 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:34:28 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:28 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 19:35:28 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 19:35:30 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:30 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 19:35:30 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:30 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 19:35:31 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:31 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:35:32 INFO  HerokuAuthenticationSteps:21 - User is using basic authentication to acess Heroku app.
+ 2021-05-21 19:35:32 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:32 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:35:33 INFO  HerokuAuthenticationSteps:18 - User is using digest authentication to acess Heroku app.
+ 2021-05-21 19:35:33 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:33 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:35:35 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:35 INFO  GetReqResResourceSteps:54 - User has base URI as herokuapp
+ 2021-05-21 19:35:36 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 200
+ 2021-05-21 19:35:36 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 19:35:37 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 19:35:37 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 19:35:37 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 20:18:44 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 20:18:45 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 20:18:47 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 20:18:48 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 20:18:48 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 20:19:57 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 20:19:57 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 20:20:02 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 20:20:02 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 20:20:03 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 20:30:11 INFO  PropertyReader:21 - config.properties file loaded successfully
+ 2021-05-21 20:30:12 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 20:30:14 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
+ 2021-05-21 20:30:14 INFO  GetReqResResourceSteps:54 - User has base URI as reqres
+ 2021-05-21 20:30:15 INFO  GetReqResResourceSteps:68 - API has responded with status code as: 201
  

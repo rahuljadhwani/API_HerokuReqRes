@@ -4,6 +4,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
+import io.restassured.http.Headers;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
@@ -32,7 +34,7 @@ public class PostOnReqResSteps {
         fieldMap.put(job, jobvalue);
         JSONObject updatedObject = jsonHandler.getUpdatedJSONObject(jsonHandler.loadJSONFile(fileName), fieldMap);
         System.out.println(updatedObject.toString());
-        requestSpecification = restAssured.given().body(updatedObject);
+        requestSpecification = restAssured.given().log().all().body(updatedObject);
     }
 
     @When("User hits the POST request to server endpoint {string}")
@@ -44,6 +46,12 @@ public class PostOnReqResSteps {
     @Then("resource should be added successfully")
     public void resource_should_be_added_successfully() {
         System.out.println(response.asString());
+        fetchResource("id");
         Assert.assertTrue(response.asString().contains("id"));
+    }
+
+    private void fetchResource(String id) {
+        JsonPath jsonPath = response.jsonPath();
+        System.out.println(jsonPath.getString(id));
     }
 }

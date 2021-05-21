@@ -13,8 +13,13 @@ public class HerokuAuthenticationSteps {
 
     @When("User hits the server with Get request with total resource {string} with {string} as username and {string} as password")
     public void user_hits_the_server_with_get_request_with_total_resource_with_as_username_and_as_password(String resourceID, String username, String password) {
-        response = ResourceSharer.getRestAssuredResource().given().log().all().auth().basic(username, password).when().get(resourceID);
-        ResourceSharer.setResponse(response);
+        if(resourceID.toLowerCase().contains("digest")){
+            response = ResourceSharer.getRestAssuredResource().given().log().all().auth().digest(username, password).when().get(resourceID);
+            logger.info("User is using digest authentication to acess Heroku app.");
+        }
+        else { response = ResourceSharer.getRestAssuredResource().given().log().all().auth().basic(username, password).when().get(resourceID);
         logger.info("User is using basic authentication to acess Heroku app.");
+        }
+        ResourceSharer.setResponse(response);
     }
 }
